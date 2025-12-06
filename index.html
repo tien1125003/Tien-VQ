@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thông tin cá nhân: VÕ QUỐC TIẾN</title>
+    <style>
+        /* Thiết lập chung */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        /* Container chính */
+        .container {
+            width: 85%;
+            max-width: 1000px;
+            margin: 30px auto;
+            background-color: #fff;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            border-radius: 12px;
+        }
+
+        /* Header và Tiêu đề */
+        .header {
+            text-align: center;
+            border-bottom: 3px solid #007BFF;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            color: #007BFF;
+            margin-bottom: 5px;
+            font-size: 2.5em;
+        }
+
+        .header p {
+            font-size: 1.1em;
+            color: #555;
+        }
+
+        /* Các phần nội dung */
+        section {
+            margin-bottom: 35px;
+        }
+
+        h2 {
+            color: #007BFF;
+            border-left: 5px solid #007BFF;
+            padding-left: 10px;
+            margin-bottom: 15px;
+            font-size: 1.7em;
+        }
+
+        /* Chi tiết liên hệ */
+        .contact-info {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+            background-color: #e9f5ff;
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+        .contact-info div {
+            flex-basis: 48%;
+            margin-bottom: 10px;
+        }
+
+        .contact-info span {
+            font-weight: bold;
+            color: #0056b3;
+        }
+
+        /* Danh sách (Học vấn, Kỹ năng, Chứng chỉ) */
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        li::before {
+            content: "•";
+            color: #007BFF;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+        
+        /* Kinh nghiệm làm việc */
+        .job-entry {
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+        }
+
+        .job-title {
+            font-weight: bold;
+            color: #333;
+            font-size: 1.2em;
+            margin-bottom: 5px;
+        }
+
+        .job-org, .edu-degree {
+            color: #007BFF;
+            font-style: italic;
+        }
+
+        .job-time, .edu-time {
+            color: #6c757d;
+            font-size: 0.9em;
+            margin-top: 5px;
+        }
+
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>VÕ QUỐC TIẾN</h1>
+            <p>Kỹ Sư Công Nghệ Thực Phẩm (Food Technology Engineer)</p>
+        </div>
+
+        <section>
+            <h2>📝 Thông Tin Liên Hệ & Cá Nhân</h2>
+            <div class="contact-info">
+                <div><span>Ngày sinh:</span> 22/04/2000</div>
+                <div><span>Điện thoại:</span> +84 942746871</div>
+                <div><span>Email:</span> voquoctien2204@gmail.com</div>
+                <div><span>Địa chỉ:</span> Đ. Nguyễn Văn Linh, An Khánh, Ninh Kiều, TP Cần Thơ</div>
+                <div><span>ORCID:</span> <a href="https://orcid.org/0000-0001-5465-7372" target="_blank">0000-0001-5465-7372</a></div>
+            </div>
+            
+            <p style="margin-top: 15px;">
+                <span style="font-weight: bold; color: #dc3545;">Thông tin khác:</span> 
+                Thái độ tích cực trong công việc, luôn cố gắng học hỏi thêm mỗi ngày. Khả năng tiếp cận công việc nhanh chóng, có tinh thần trách nhiệm cao với công việc.
+            </p>
+        </section>
+        
+        <hr>
+
+        <section>
+            <h2>🎓 Học Vấn</h2>
+            <div class="job-entry">
+                <p class="edu-degree">Kỹ Sư Công Nghệ Thực Phẩm (Food Technology Engineer)</p>
+                <p class="job-org">ĐẠI HỌC CẦN THƠ</p>
+                <p class="edu-time">2018 - 2022</p>
+                <p>Tốt nghiệp: **Giỏi** (GPA: 3,56)</p>
+            </div>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>💼 Kinh Nghiệm Làm Việc</h2>
+            
+            <div class="job-entry">
+                <p class="job-title">Nhân viên Kiểm nghiệm</p>
+                <p class="job-org">CÔNG TY TNHH TENTAMUS VIỆT NAM</p>
+                <p class="job-time">10/2023 - 11/2024</p>
+                <ul>
+                    <li>Thực hiện các phép thử hóa lý trên nền thực phẩm, thức ăn chăn nuôi và phụ gia thực phẩm theo phương pháp chuẩn.</li>
+                    <li>Vận hành thiết bị chưng cất đạm và hệ thống Soxhlet để phân tích thành phần hóa học trong mẫu theo phương pháp tiêu chuẩn.</li>
+                    <li>Soạn thảo báo cáo kiểm nghiệm chi tiết, lưu trữ và quản lý kết quả kiểm nghiệm theo quy định.</li>
+                    <li>Chuẩn bị hồ sơ về các phép thử để phục vụ cho các đợt đánh giá VILAS.</li>
+                </ul>
+            </div>
+
+            <div class="job-entry">
+                <p class="job-title">Trợ giảng</p>
+                <p class="job-org">Trường Đại Học Cần Thơ</p>
+                <p class="job-time">07/2022 - 11/2023</p>
+                <ul>
+                    <li>Hướng dẫn và giải thích cho sinh viên các thao tác phân tích mẫu, sử dụng thiết bị thí nghiệm đúng theo quy trình kỹ thuật và đảm bảo an toàn phòng thí nghiệm.</li>
+                    <li>Hỗ trợ giảng viên trong việc tổ chức, chuẩn bị và triển khai các buổi thực hành tại phòng thí nghiệm.</li>
+                </ul>
+            </div>
+
+            <div class="job-entry">
+                <p class="job-title">Thực tập sinh</p>
+                <p class="job-org">Công ty TNHH rau quả Hùng Hậu - Đồng Tháp</p>
+                <p class="job-time">5/2021 - 6/2021</p>
+                <ul>
+                    <li>Xử lý phân loại nguồn nguyên liệu đầu vào.</li>
+                    <li>Giám sát và thực hiện quy trình lạnh đông IQF- phân loại - bao gói sản phẩm.</li>
+                </ul>
+            </div>
+        </section>
+
+        <hr>
+
+        <section style="display: flex; justify-content: space-between;">
+            <div style="flex-basis: 48%;">
+                <h2>🛠️ Kỹ Năng Cứng</h2>
+                <ul>
+                    <li>**Phần mềm văn phòng:** Thành thạo Microsoft Office (Word, Excel, PowerPoint)</li>
+                    <li>**Thống kê, quản lý số liệu:** Sử dụng Statgraphic, XLSTAT</li>
+                </ul>
+            </div>
+            <div style="flex-basis: 48%;">
+                <h2>🏅 Chứng Chỉ</h2>
+                <ul>
+                    <li>Tiếng Anh **VSTEP B2**</li>
+                    <li>Tin học ứng dụng A</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>🤝 Kỹ Năng Mềm</h2>
+            <ul style="display: flex; flex-wrap: wrap;">
+                <li style="flex-basis: 48%;">Kỹ năng giao tiếp và giải thích</li>
+                <li style="flex-basis: 48%;">Kỹ năng tổ chức và quản lý</li>
+                <li style="flex-basis: 48%;">Kỹ năng làm việc nhóm, hợp tác</li>
+                <li style="flex-basis: 48%;">Kỹ năng giải quyết vấn đề</li>
+                <li style="flex-basis: 48%;">Kỹ năng giám sát và hỗ trợ</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>📚 Nghiên Cứu & Tác Giả (ORCID)</h2>
+            <div class="job-entry" style="background-color: #e9f5ff;">
+                <p class="job-title" style="color: #0056b3;">Effect of steamed purple sweet potato addition on chemico-physical properties of sandwich bread.</p>
+                <p>Nguồn: Crossref</p>
+                <p>Cộng tác viên: Nguyen Minh Thuy; **Vo Quoc Tien**; Tran Ngoc Giau; Hong Van Hao; Vo Quang Minh; Ngo Van Tai.</p>
+                <p><a href="https://orcid.org/0000-0001-5465-7372/works/2025100846" target="_blank">Xem chi tiết trên ORCID</a></p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
